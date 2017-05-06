@@ -1,5 +1,9 @@
 *
 
+div {
+  border: 1px solid black;
+}
+
 /* Header Content Styling */
 #header {
   font-family: Verdana;
@@ -27,4 +31,23 @@ nav li {
   display: inline-block;
   padding: 6px;
   margin: 0 3px;
+}
+
+/* Main Content Styling */
+
+#content {
+  display: inline-flex;
+  
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
