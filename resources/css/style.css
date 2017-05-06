@@ -1,0 +1,30 @@
+*
+
+/* Header Content Styling */
+#header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#header a{
+  color: black;
+
+}
+
+#logo li{
+  color: MediumAquamarine;
+  display: inline-block;
+  align-items: center;
+}
+
+nav li {
+  display: inline-block;
+  padding: 6px;
+  margin: 0 3px;
+}
