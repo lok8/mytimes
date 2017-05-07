@@ -4,6 +4,10 @@ div {
   border: 1px solid black;
 }
 
+body {
+  padding: 10px;
+}
+
 /* Header Content Styling */
 #header {
   font-family: Verdana;
@@ -13,31 +17,34 @@ div {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: MediumAquamarine;
 
 }
 
 #header a{
   color: black;
-
 }
 
-#logo li {
-  color: MediumAquamarine;
-  display: inline-block;
-  align-items: center;
+.logo {
+    margin: 10px;
 }
 
-nav li {
-  display: inline-block;
+nav span {
+  display: inline;
   padding: 6px;
   margin: 0 3px;
 }
 
 /* Main Content Styling */
 
+/* Column Div Styling */
 #content {
   display: inline-flex;
-  
+
+}
+
+.column {
+  margin: 10px;
 }
 
 .column.large {
@@ -50,4 +57,27 @@ nav li {
 
 .column.small {
   width: 240px;
+}
+
+/* Content Text Styling */
+.story {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.imgbanner {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-color: mediumAquamarine;
+}
+
+#main {
+  font-size: 40px;
+}
+
+.location {
+  text-transform: uppercase;
 }
