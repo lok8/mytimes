@@ -1,4 +1,4 @@
-*
+
 
 div {
   border: 1px solid black;
@@ -40,7 +40,6 @@ nav span {
 /* Column Div Styling */
 #content {
   display: inline-flex;
-
 }
 
 .column {
@@ -74,10 +73,29 @@ nav span {
   background-color: mediumAquamarine;
 }
 
-#main {
-  font-size: 40px;
-}
-
 .location {
   text-transform: uppercase;
+}
+
+/* Image Banners */
+
+#main {
+  font-size: 40px;
+  background-image: url(./images/img-story-main.png);
+}
+
+#earth {
+  background-image: url(./images/img-story-main.png);
+}
+
+#memory {
+  background-image: url(./images/img-story-3-memory.png);
+}
+
+#cats {
+  background-image: url(./images/img-story-1-cats.png);
+}
+
+#cookie {
+  background-image: url(./images/img-news-bite.png);
 }
